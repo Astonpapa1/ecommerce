@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background: #f8f8f8;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #fff3ee;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.menu {
+  margin: 10px 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu.active {
+  color: orangered;
+}
+
+.logout {
+  color: darkred;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.container {
+  padding: 40px;
+  flex: 1;
+}
+
+.form-box {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 700px;
+}
+
+.form-box h2 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input, select {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+}

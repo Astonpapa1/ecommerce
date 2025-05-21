@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="practise.css">
+<body>
+    <div class="sidebar">
+        <div class="menu-support">contact support</div> 
+        <div class="menu">reset password</div>
+        <div class="menu">create password</div>
+        <div class="logout">logout</div>  
+    </div>
+    <div class="container">
+        <div class="form-box">
+            <h2>create your account</h2>
+            <form>
+                <div class="row">
+                    <input type="text" placeholder="enter first name " required />
+                    <input type="text" placeholder="enter last name " required />
+                </div>
+                <div class="row">
+                    <input type="text" placeholder="enter username " required />
+                    <input type="email" placeholder="enetr email address" required/>
+                </div>
+                <input type="number" placeholder="enter phone number" required />
+                <div class="row">
+                    <input type="password" placeholder="enter password" required />
+                    <input type="password" placeholder="confirm password" required />
+                    <select required>
+                        <option disabled selected>select your role</option>
+                        <option>Admin</option>
+                        <option>User</option>
+                    </select>
+                </div>
+                <button type="submit">create account</button>
+            </form>
+        </div>
+        <div class="form-box">
+            <h2>login with username or email</h2>
+            <form>
+                <input type="text" placeholder="enter username or email" required />
+                <input type="text" placeholder="enter password" required />
+                <button type="submit">login</button>
+            </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

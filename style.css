@@ -1,0 +1,361 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10% ;
+}
+#menu-icon{
+  color: red;
+
+  
+  cursor: pointer;
+  z-index: 1001;
+
+}
+.logo img {
+  max-width: 120px;
+  height: auto;
+
+}
+.nevmenu{
+  display: flex;
+
+}
+.nevmenu a{
+  padding: 10px 20px ;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: black;
+  transition: all .42s ease;
+  
+
+}
+.nevmenu a:hover{
+  color: blue;
+}
+section{
+  padding: 5% 10%;
+
+}
+.mainhome{
+  width: 100%;
+  height: 80vh;
+  background-image: url(images/WhatsApp\ Image\ 2025-04-16\ at\ 15.40.11_3b74f98d.jpg);
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+.maintext h5{
+  color: blue;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.maintext h1{
+  color: black;
+  font-size: 70px;
+  text-transform: capitalize;
+  font-weight: 600;
+  
+  margin: 6px 0 10px;
+}
+.maintext p{
+  color: gray;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.mainbtn{
+  display: inline-block;
+  color: blue;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 2px solid blue;
+  padding: 12px 25px;
+  transition: all .42s ease;
+
+}
+.mainbtn i{
+  vertical-align: middle;
+}
+.mainbtn:hover{
+  background-color: black;
+  color: white;
+}
+.downarrow{
+  position: absolute;
+  top: 85%;
+  right: 11%;
+}
+.down i{
+  font-size: 30px;
+  color: blue;
+  transition: all .42s ease;
+  
+
+}
+.down i:hover{
+  
+  color: black;
+}
+.centertext h2{
+  color: blue;
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 2rem;
+
+}
+.row{
+  position: relative;
+}
+.row img{
+  width: 100%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+
+}
+.producttext h5{
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  color: black;
+  background-color: gold;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 2px;
+
+}
+.icon i{
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+
+}
+.icon i:hover{
+  color: red;
+}
+.rating i{
+  color: goldenrod;
+  font-size: 18px;
+
+}
+.price h4{
+  color: black;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+
+}
+.price p{
+  color: blue;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+.contact{
+  background-color: gray;
+
+}
+.contactinfo{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  
+  padding: 2rem 0;
+ 
+  gap: 2rem;
+}
+.firstinfo img{
+  width: 140px;
+  height: auto;
+
+}
+.contactinfo p{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all .42s;
+}
+.contactinfo p:hover{
+  color: blue;
+}
+.contactinfo h4{
+  color: blue;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+input[type=email]{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+.register{
+  background-color: black;
+  color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+
+}
+.register:hover{
+  color: white;
+  background-color: blue;
+}
+
+
+.centertextup h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+  color: blue;
+  margin-bottom: 30px;
+
+}
+.updatecart{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 1rem;
+}
+.cart img{
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  
+}
+.cart h5{
+  font-size: 14px;
+  color: gray;
+  text-transform: capitalize;
+  font-weight: 500;
+
+}
+.cart h4{
+  text-transform: capitalize;
+  color: black;
+  font-size: 20px;
+
+}
+.cart p{
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+  margin-bottom: 12px;
+  max-width: 300px;
+}
+.cart h6{
+  color: green;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.cart h6:hover{
+  color: black;
+
+}
+
+header.sticky{
+  background: white;
+  padding: 20px, 10%;
+  box-shadow: 0px 0px 10px rgb(0 0 0/10);
+}
+@media(max-width:890px){
+  header{
+      padding: 20px 3%;
+      transition: .4s;
+
+  } 
+      
+}
+
+@media(max-width:630px){
+  .main-text h1{
+      font-size: 50px;
+      transition: .4s;
+  }
+  .main-text p{
+      font-size: 18px;
+      transition: .4s;
+  }
+
+  .main-btn{
+      padding: 10px 20px;
+      transition: .4s;
+  }
+}
+
+
+@media(max-width:750px){
+  .nevmenu{
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      width: 90px;
+      height: 130vh;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 120px 90px;
+      transition: all .42s;
+    }
+    #menu-icon{
+      font-size: 30px;
+      color: black;
+
+    }
+    .main-text h1{
+      font-size: px;
+      transition: .4s;
+    }
+    .main-text p{
+      color: blue;
+    }
+
+  }
+  .nevmenu a{
+    display: block;
+    
+    margin: 18px 0;
+
+}
+  
+
+  .nevmenu.open{
+      right: 0;
+}

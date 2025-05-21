@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10% ;
+  background: white;
+  box-shadow: 0px 0px 10px rgb(0 0 0/10);
+}
+#menu-icon{
+  color: red;
+
+  
+  cursor: pointer;
+  z-index: 1001;
+
+}
+.logo img {
+  max-width: 120px;
+  height: auto;
+
+}
+.nevmenu{
+  display: flex;
+
+}
+.nevmenu a{
+  padding: 10px 20px ;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: black;
+  transition: all .42s ease;
+  
+
+}
+.nevmenu a:hover{
+  color: blue;
+}
+section{
+  padding: 5% 10%;
+
+}
+
+.mainhome{
+  width: 100%;
+  height: 80vh;
+  background-image: url(images/WhatsApp\ Image\ 2025-04-16\ at\ 15.40.11_3b74f98d.jpg);
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.maintext h5{
+  color: blue;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.maintext h1{
+  color: black;
+  font-size: 70px;
+  text-transform: capitalize;
+  font-weight: 600;
+  
+  margin: 6px 0 10px;
+}
+.maintext p{
+  color: gray;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+.blog-news {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.blogupdate {
+  flex: 0 0 40%;
+}
+
+.blogupdate img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.latest {
+  flex: 0 0 60%;
+}
+
+.latest h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.latest-news {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-left: 4px solid #ff7f50;
+  border-radius: 5px;
+}
+
+.news-date {
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.news-content {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.news-content img {
+  width: 70px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.news-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff7f50;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e8673f;
+}
+header.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+
+ 
+
+

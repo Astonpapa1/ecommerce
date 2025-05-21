@@ -1,0 +1,360 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10% ;
+}
+.logo img {
+  max-width: 120px;
+  height: auto;
+
+}
+.nevmenu{
+  display: flex;
+}
+.nevmenu a{
+  padding: 10px 20px ;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: black;
+  transition: all .42s ease;
+  
+
+}
+.nevmenu a:hover{
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactus {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contactus h5 {
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.contactus h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.contact-info .row {
+  display: grid;
+  grid-template-columns: 30px auto;
+  gap: 10px;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.contact-info i {
+  font-size: 24px;
+  color: #007bff;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+
+
+
+
+.forms {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+}
+
+.formpage {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.formpage h5 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.formpage h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+}
+
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.formpagenow {
+  max-width: 500px;
+  flex: 1;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.formpagenow form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.formpagenow input,
+.formpagenow textarea {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 120px;
+}
+
+.register {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+.contact{
+  background-color: gray;
+  padding-top: 25px;
+  padding-bottom: 20px;
+
+
+}
+.contactinfo{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  margin-left: 40px;
+  margin-right: 40px;
+  
+  padding: 1rem 0;
+ 
+  gap: 2rem;
+}
+.firstinfo img{
+  width: 140px;
+  height: auto;
+
+}
+.contactinfo p{
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all .42s;
+}
+.contactinfo p:hover{
+  color: blue;
+}
+.contactinfo h4{
+  color: blue;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.fifthinfo input[type=email] {
+  background-color: white;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+
+.register{
+  background-color: black;
+  color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+
+}
+.register:hover{
+  color: white;
+  background-color: blue;
+}
+
+
+.centertextup h2{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+  color: blue;
+  margin-bottom: 30px;
+
+}
+.updatecart{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 1rem;
+}
+.cart img{
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  
+}
+.cart h5{
+  font-size: 14px;
+  color: gray;
+  text-transform: capitalize;
+  font-weight: 500;
+
+}
+.cart h4{
+  text-transform: capitalize;
+  color: black;
+  font-size: 20px;
+
+}
+.cart p{
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+  margin-bottom: 12px;
+  max-width: 300px;
+}
+.cart h6{
+  color: green;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.cart h6:hover{
+  color: black;
+
+}
+@media(max-width:890px){
+  header{
+    padding: 20px 3%;
+    transition: .4s;
+  }
+}
+@media (max-width: 750px) {
+  .nevmenu {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background: blue;
+    transition: all 0.42s ease;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .nevmenu.open {
+    right: 0;
+  }
+
+  .nevmenu li {
+    margin: 15px 0;
+  }
+
+}
+  
+
+    
+  
+  .nevmenu a{
+    display: block;
+    color: white;
+    margin: 18px 0;
+
+  }
+  
+
+#menu-icon{
+  font-size: 35px;
+  z-index: 10001;
+  cursor: pointer;
+  color: black;
+}
+.nev-icon {
+  display: flex;
+  align-items: center;
+}
+

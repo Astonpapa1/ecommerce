@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up & Login</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <div class="menu active">Contact support</div>
+    <div class="menu">Reset password</div>
+    <div class="menu">Create account</div>
+    <div class="logout">Logout</div>
+  </div>
+
+  <div class="container">
+    <div class="form-box">
+      <h2>Create your account</h2>
+      <form>
+        <div class="row">
+          <input type="text" placeholder="Enter first name" required />
+          <input type="text" placeholder="Enter last name" required />
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Enter user name" required />
+          <input type="email" placeholder="Enter Email" required />
+        </div>
+        <input type="tel" placeholder="Enter Phone number" required />
+        <div class="row">
+          <input type="password" placeholder="Enter password" required />
+          <input type="password" placeholder="Enter confirm password" required />
+          <select required>
+            <option disabled selected>Select your role</option>
+            <option>Admin</option>
+            <option>User</option>
+          </select>
+        </div>
+        <button type="submit">Create account</button>
+      </form>
+    </div>
+
+    <div class="form-box">
+      <h2>Login with either username or email</h2>
+      <form>
+        <input type="text" placeholder="Enter username or email" required />
+        <input type="password" placeholder="Enter password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
